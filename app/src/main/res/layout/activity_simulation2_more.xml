@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saigauravpurushothaman.stemsimulations.Simulation2More"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/learn_more"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:gravity="center"
+        android:text="More Information"
+        android:textColor="#FFFF9D5C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/more-text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="8dp"
+        android:gravity="left"
+        android:text="  Out second simulation is the same ball but with a twist. It moves towards the edge as it falls. This simulation represents parabolic motion, such as when a baseball player throws a ball in a curve. In parabolic motion, the object also moves in the horizontal direction. The formula for this motion is d= v*t.
+        If you noticed, the ball moved the same speed to the right as it fell, but increased in speed as it went downwards. This is true in real life, and proves that the vertical and horizontal directions are independent of each other. This is like that because in horizontal motion of the projectile there is no acceleration by gravity. This leads us to the only vector of motion being the velocity from the initial movement. We often use this principal of independent directions in our calculations in engineering and science. For example, in vectors, we can split a line going diagonally into both a vertical and horizontal line that reaches the same endpoint. Neat, right?"
+        android:textColor="#FFFF9D5C"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="59dp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"/>
+
+</android.support.constraint.ConstraintLayout>

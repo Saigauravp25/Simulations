@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+
+    tools:actionBarNavMode="tabs"
+    tools:context="com.saigauravpurushothaman.stemsimulations.MainActivity">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96sp"
+        android:layout_marginTop="40sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="STEMulations"
+        android:textColor="#FFFF9D5C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true" />
+
+    <ListView
+        android:id="@+id/projects_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/section_label"
+        android:padding="50sp" />
+</RelativeLayout>

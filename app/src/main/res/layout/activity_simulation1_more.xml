@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saigauravpurushothaman.stemsimulations.Simulation1More"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/learn_more"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:gravity="center"
+        android:text="More Information"
+        android:textColor="#FFFF9D5C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/more-text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="8dp"
+        android:gravity="left"
+        android:text="When you drop a ball in real life, the speed at when you drop it compared to right before it hits the ground increases. This is due to the acceleration of the ball being pulled towards the ground by gravity!   The change in speed over time differs between the change in acceleration which is due to the mass and radius of the object. That's why astronauts float in space, and can jump higher on the moon!   Gravity is a very important in our daily lives. Many people, such as engineers and physicists, spend their time solving problems related to gravity in order to build better rockets, or finding out how the earth interacts with asteroids and other planets."
+        android:textColor="#FFFF9D5C"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/learn_more"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="59dp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:text="Speed=.5xaccel.xTime^2"
+        android:layout_marginBottom="15sp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="473dp"
+        android:textSize="40sp"
+        android:gravity="center_vertical"/>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
